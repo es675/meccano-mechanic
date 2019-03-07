@@ -10,7 +10,7 @@ namespace MeccanoMechanic
 
         public void Start()
         {
-            p1.Holes[0].connectTo(p2.Holes[0].transform);
+            //p1.Holes[0].connectTo(p2.Holes[0].transform);
         }
     }
 }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Assets.Elenesski.Camera.Utilities {
 
-    public class GenericMoveCameraInputs : MonoBehaviour {
+    public class GenericMoveCameraInputs {
 
         public bool isSlowModifier;         // Slows the movement down by a factor
         public bool isFastModifier;         // Speeds the movement up by a factor

@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 namespace MeccanoMechanic
@@ -16,6 +15,12 @@ namespace MeccanoMechanic
                 var hole = child.GetComponent<MeccanoHole>();
                 if (hole) Holes.Add(hole);
             }
+        }
+
+        public void moveTo(Vector3 position)
+        {
+            var delta = position - transform.position;
+            transform.position += delta;
         }
     }
 }
